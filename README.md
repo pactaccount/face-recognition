@@ -76,14 +76,13 @@ print('Self-distance:', face_recognition.face_distance([enc], enc)[0])
 
 ```
 .
-├── README.md                 # This file
-├── requirements.txt          # Dependencies (face-recognition, opencv, numpy)
-├── recognition/              # Core pipeline (matching logic + face recognition)
-├── web_app/                  # Flask web UI, DB, templates
-├── docs/                     # Technical documentation
-├── demo/                     # Verified consented references
-├── event_demo/               # (Legacy; see demo/)
-└── tests/                    # Unit verification
+├── README.md                 # Project documentation & benchmark overview
+├── requirements.txt          # Python dependencies (face-recognition, opencv, numpy)
+├── recognition/              # Core biometric pipeline (metric matching & sanitization)
+├── web_app/                  # Local Flask application, SQLite DB, and templates
+├── docs/                     # IEEE Evaluation Report and technical specifications
+├── demo/                     # Consented attendee registration reference images
+└── tests/                    # Deterministic unit and security test suite
 ```
 
 ## Documentation
